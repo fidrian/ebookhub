@@ -1,0 +1,39 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../images/background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.obscure-background {
+    background-color: rgba(0,0,0,0.7);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.title {
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+}
+
+.text-center {
+    font-size: 500%;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+.btn-nologin {
+    margin-left: 10px;
+}
